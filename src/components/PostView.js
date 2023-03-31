@@ -11,8 +11,8 @@ const PostView = () => {
     }, [dispatch])
 
     return (
-        <div>
-            <h3>Data Fetching</h3>
+        <div style={{marginTop:"50px"}}>
+            <h1>Redux-Toolkit Data Fetching</h1>
             {isLoading && <h5>Loading.....</h5>}
             {error && <h5>{error}</h5>}
             <section>

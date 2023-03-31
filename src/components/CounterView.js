@@ -9,7 +9,7 @@ const CounterView = () => {
 
     return (
         <div>
-            <h1>Redux Toolkit Counter App</h1>
+            <h1>Redux-Toolkit Counter App</h1>
             <h2>Count : {count}</h2>
 
             <button onClick={() => {dispatch(increment())}}>Increment</button>
